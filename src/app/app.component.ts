@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngviacli';
+
+  displayCounter(count) {
+    console.log(count);
+  }
+
+  getData(datas) {
+    console.log("From AppComponent event == " + datas);
+  }
+
 }
